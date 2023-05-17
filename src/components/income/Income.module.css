@@ -1,0 +1,26 @@
+.income {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  border: 1px solid dedede;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.incomes,
+.expenses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.incomes_amount{
+    color: rgb(66, 179, 102)
+}
+
+.expenses_amount{
+    color: red
+}
